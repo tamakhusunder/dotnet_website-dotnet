@@ -41,8 +41,7 @@
 </asp:Content>
 
 <asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolder2" runat="server">
-  <div class="p-3"
-
+  <div class="p-3">
         <nav>
          <div class="nav nav-tabs" id="nav-tab" role="tablist">
             <a class="nav-link active" id="nav-syllabus-tab" data-toggle="tab" href="#nav-syllabus" role="tab" aria-controls="nav-syllabus" aria-selected="true">Syllabus</a>
@@ -50,19 +49,42 @@
             <a class="nav-link" id="nav-notes-tab" data-toggle="tab" href="#nav-notes" role="tab" aria-controls="nav-notes" aria-selected="false">Notes</a>
          </div>
         </nav>
-        <div class="tab-content" id="nav-tabContent">
-          <div class="tab-pane fade show active" id="nav-syllabus" role="tabpanel" aria-labelledby="nav-syllabus-tab"> 
-             <div class="p-3">
-              <h6>1. Overview of VB.NET and C# .NET Language (4hr)</h6>
-               <ol>
-                <li>Introduction to C# and VB</li>
-                <li>Feature of object oriented programming</li>
-                <li>Scope of .NET technology</li>
-              </ol>
-            </div>
-          </div>
+   </div>
+  
 
-          <div class="tab-pane fade" id="nav-question" role="tabpanel" aria-labelledby="nav-question-tab">
+  <div class="tab-content" id="nav-tabContent">
+       <div class="tab-pane fade show active" id="nav-syllabus" role="tabpanel" aria-labelledby="nav-syllabus-tab"> 
+             <div class="row">
+
+                  <div class="p-3 col-6">
+                      <h6>1. Overview of VB.NET and C# .NET Language (4hr)</h6>
+                       <ol>
+                            <li>Introduction to C# and VB</li>
+                            <li>Feature of object oriented programming</li>
+                            <li>Scope of .NET technology</li>
+                      </ol>
+                    </div>
+
+                  <div class="p-3 col-6">
+                           <h6>1. Overview of VB.NET and C# .NET Language (4hr)</h6>
+                            <ol>
+                                <li>.NET</li>
+                                <li>.NET Framework</li>
+                                <li>Features of .Net Technology</li>
+                                <li>.NET Framework Architecture</li>
+                                <li>Compilation and Execution Process in .NET Framework</li>
+                                <li>IDE</li>
+                                <li>Introduction to c#</li>
+                                <li>Differentiate between C# and VB.NET</li>
+                                <li>features of OOP</li>
+                                <li>Scope of .NET Technology</li>
+                            </ol>
+                         </div>
+
+              </div>
+        </div>
+          
+       <div class="tab-pane fade" id="nav-question" role="tabpanel" aria-labelledby="nav-question-tab">
             <div class="p-3">
                 <ol>
                     <li>What is .NET Framework? Explain .NET framework with exmaple.[2+4]</li>
@@ -82,12 +104,12 @@
                     <li>Differentiate between VB and VB.NET.*[4]</li>
                 </ol>
             </div>
-          </div>
+       </div>
 
-          <div class="tab-pane fade" id="nav-notes" role="tabpanel" aria-labelledby="nav-notes-tab">
+       <div class="tab-pane fade" id="nav-notes" role="tabpanel" aria-labelledby="nav-notes-tab">
 
-          </div>
-        </div>
+       </div>
 
-   </div>
+  </div>
+   
 </asp:Content>
