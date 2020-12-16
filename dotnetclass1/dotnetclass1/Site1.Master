@@ -32,6 +32,8 @@
                   <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
                     <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
 
+                       <!-- list are listed in webform with master
+                        ==================================-->
                      <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
         
                       </asp:ContentPlaceHolder>

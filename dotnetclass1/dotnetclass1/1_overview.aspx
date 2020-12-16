@@ -53,10 +53,9 @@
         </nav>
    </div>
   
-
   <div class="tab-content" id="nav-tabContent">
        <div class="tab-pane fade" id="nav-syllabus" role="tabpanel" aria-labelledby="nav-syllabus-tab"> 
-             <div class="row">
+             <div class="row ml-3 mr-3">
 
                   <div class="p-3 col-6">
                       <h6>1. Overview of VB.NET and C# .NET Language (4hr)</h6>
@@ -108,9 +107,11 @@
             </div>
        </div>
 
+      <!-- notes of dotnet are given below
+    ==================================-->
        <div class="tab-pane fade show active" id="nav-notes" role="tabpanel" aria-labelledby="nav-notes-tab">
 
-           <div class="p-3 text-justify">
+           <div class="p-3 ml-3 mr-3 text-justify">
                     <h5 class="text-danger">.NET</h5>
                     <p>It is a framework from Microsoft. (It is not a programming language by itself).</p>
 
@@ -441,12 +442,44 @@
             </div>
        </div>
 
+      <!-- photos of dotnet are given below
+    ==================================-->
       <div class="tab-pane fade" id="nav-photo" role="tabpanel" aria-labelledby="nav-photo-tab">
-            ....
+            
+          <div class="row ml-3 mr-3">
+                    <div class="col-4 p-3">
+                         <a href="img/1_overview/DotNet.png" target="_blank">
+                                <img src="img/1_overview/DotNet.png" class="img-thumbnail"/>
+                         </a>
+                    </div>
+            </div>
+
+
       </div>
 
+      <!-- videos of dotnet are given below
+    ==================================-->
       <div class="tab-pane fade" id="nav-video" role="tabpanel" aria-labelledby="nav-video-tab">
-            ...
+          
+          <div class="row ml-3 mr-3">
+
+                  <div class="col-4 p-3">
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/0W3GVxQsV0g?list=PLrp1NmQdla-fWpQay8XnwZPM-l73Sb7tv" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                  <div class="col-4 p-3">
+                        <div class="embed-responsive embed-responsive-16by9">
+                          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/A-3N_bM50HI?list=PLrp1NmQdla-fWpQay8XnwZPM-l73Sb7tv" allowfullscreen></iframe>
+                        </div>
+                   </div>
+                  <div class="col-4 p-3">
+                        <div class="embed-responsive embed-responsive-16by9">
+                          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/0u9k-kOR3KE?list=PLrp1NmQdla-fWpQay8XnwZPM-l73Sb7tv" allowfullscreen></iframe>
+                        </div>
+                   </div>
+
+          </div>
       </div>
 
 
