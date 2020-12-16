@@ -71,6 +71,12 @@
     <Content Include="img\oldisgold\2019a.jpg" />
     <Content Include="img\oldisgold\2019b.png" />
     <Content Include="img\oldisgold\2015.bmp" />
+    <Content Include="img\1_overview\CLS.png" />
+    <Content Include="img\1_overview\compilation process.png" />
+    <Content Include="img\1_overview\csharp.png" />
+    <Content Include="img\1_overview\CTS.png" />
+    <Content Include="img\1_overview\framework.png" />
+    <Content Include="img\1_overview\musical.png" />
     <Content Include="LAB\lab1.aspx" />
     <Content Include="LAB\lab2.aspx" />
     <Content Include="LAB\lab3.aspx" />
