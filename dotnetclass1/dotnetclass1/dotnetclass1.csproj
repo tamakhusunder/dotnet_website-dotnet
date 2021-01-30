@@ -57,6 +57,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Bootstrap\mystyle.css" />
     <Content Include="img\2_basics\12345 loop.png" />
     <Content Include="img\2_basics\array.png" />
     <Content Include="img\2_basics\boxing.png" />
@@ -87,6 +88,30 @@
     <Content Include="img\4_OOP\pill-1884775_960_720.jpg" />
     <Content Include="img\4_OOP\SingleInheritance.png" />
     <Content Include="img\4_OOP\Single_Inheritance.png" />
+    <Content Include="img\5_Winforms\buttonClick.png" />
+    <Content Include="img\5_Winforms\check.png" />
+    <Content Include="img\5_Winforms\checkboxeg.png" />
+    <Content Include="img\5_Winforms\checkradio.png" />
+    <Content Include="img\5_Winforms\CMS_Output.png" />
+    <Content Include="img\5_Winforms\CollegeInfo.png" />
+    <Content Include="img\5_Winforms\ContextMenuStrip.png" />
+    <Content Include="img\5_Winforms\exception.png" />
+    <Content Include="img\5_Winforms\exceptionOutput.png" />
+    <Content Include="img\5_Winforms\GDI.png" />
+    <Content Include="img\5_Winforms\GDI_output.png" />
+    <Content Include="img\5_Winforms\GDI_Program.png" />
+    <Content Include="img\5_Winforms\InheritedForm.png" />
+    <Content Include="img\5_Winforms\LabelTextButton.png" />
+    <Content Include="img\5_Winforms\ListBox.png" />
+    <Content Include="img\5_Winforms\ListBox1.png" />
+    <Content Include="img\5_Winforms\loginform.png" />
+    <Content Include="img\5_Winforms\ParentForm.png" />
+    <Content Include="img\5_Winforms\PersonalInfo 2015.png" />
+    <Content Include="img\5_Winforms\radio.png" />
+    <Content Include="img\5_Winforms\radiobuttoneg.png" />
+    <Content Include="img\5_Winforms\Timer.png" />
+    <Content Include="img\5_Winforms\Timer1.png" />
+    <Content Include="img\5_Winforms\Vehicle Information.png" />
     <Content Include="img\lab\1.jpg" />
     <Content Include="img\lab\2.jpg" />
     <Content Include="img\lab\3.jpg" />
@@ -117,6 +142,9 @@
     <Content Include="LAB\lab8.aspx" />
     <Content Include="Site1.Master" />
     <Content Include="LAB\lab.Master" />
+    <Content Include="Form.Master" />
+    <Content Include="Registration.aspx" />
+    <Content Include="logininfo.aspx" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -274,6 +302,27 @@
     </Compile>
     <Compile Include="9_oldquestion.aspx.designer.cs">
       <DependentUpon>9_oldquestion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Form.Master.cs">
+      <DependentUpon>Form.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Form.Master.designer.cs">
+      <DependentUpon>Form.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Registration.aspx.cs">
+      <DependentUpon>Registration.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Registration.aspx.designer.cs">
+      <DependentUpon>Registration.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="logininfo.aspx.cs">
+      <DependentUpon>logininfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="logininfo.aspx.designer.cs">
+      <DependentUpon>logininfo.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

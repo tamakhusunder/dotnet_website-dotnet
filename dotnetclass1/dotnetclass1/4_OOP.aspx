@@ -41,7 +41,7 @@
 </asp:Content>
 
 <asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolder2" runat="server">
- <div class="p-3">
+<div class="p-3">
 
         <nav>
          <div class="nav nav-tabs" id="nav-tab" role="tablist">
@@ -54,8 +54,7 @@
       
           </div>
         </nav>
- </div>
-
+ 
         <div class="tab-content" id="nav-tabContent">
             <div class="tab-pane fade" id="nav-syllabus" role="tabpanel" aria-labelledby="nav-syllabus-tab">
                                             <div class="row p-3">
@@ -142,7 +141,8 @@
                                         <li>List different features of OOP. Explain polymorphism with suitable example. [1+4]</li>
                                         <li>Short notes on: State and Behaviour [2.5]</li>
                                         </ol>
-                                    </div>
+                                    </div>
+
           </div>
 
             <div class="tab-pane fade show active" id="nav-notes" role="tabpanel" aria-labelledby="nav-notes-tab">
@@ -338,7 +338,8 @@
                                                 </td>
                                             </tr>
                                         </table>
-                                </div>
+                                </div>
+
           </div>
 
             <div class="tab-pane fade" id="nav-programs" role="tabpanel" aria-labelledby="nav-programs-tab">
@@ -477,5 +478,6 @@
         </div>
 
         </div>
+</div>
 
 </asp:Content>
