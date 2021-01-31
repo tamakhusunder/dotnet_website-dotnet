@@ -13,5 +13,83 @@ namespace dotnetclass1.LAB
         {
 
         }
+
+        protected void btnCalculation_Click(object sender, EventArgs e)
+        {
+            int num1 = Convert.ToInt32(txtValue1.Text);
+            int num2 = Convert.ToInt32(txtValue2.Text);
+
+            int num3 = num1 + num2;
+            lblCalculation.Text = num3.ToString();
+
+        }
+
+        protected void btnRadioButtonCalc_Click(object sender, EventArgs e)
+        {
+            int num1 = Convert.ToInt32(txtValue1.Text);
+            int num2 = Convert.ToInt32(txtValue2.Text);
+
+            int num;
+            if (rblist.SelectedValue == "+")
+            {
+                num = num1 + num2;
+                lblRadioCalculation.Text = num.ToString();
+
+            }
+            else if (rblist.SelectedValue == "-")
+            {
+                num = num1 - num2;
+                lblRadioCalculation.Text = num.ToString();
+ 
+            }
+            else if (rblist.SelectedValue == "*")
+            {
+                num = num1 * num2;
+                lblRadioCalculation.Text = num.ToString();
+
+            }
+                else if (rblist.SelectedValue == "/")
+            {
+                num = num1 / num2;
+                lblRadioCalculation.Text = num.ToString();
+
+            }
+            else
+            {
+                lblRadioCalculation.Text = "Invalid Choice";
+            }
+        }
+
+        protected void btnDropDownCalc_Click(object sender, EventArgs e)
+        {
+            int num1 = Convert.ToInt32(txtValue1.Text);
+            int num2 = Convert.ToInt32(txtValue2.Text);
+            int num;
+
+            if (ddlist.SelectedItem.Value == "+")
+            {
+                num = num1 + num2;
+                lblDropDownCalculation.Text = num.ToString();
+            }
+            else if (ddlist.SelectedItem.Value == "-")
+            {
+                num = num1 - num2;
+                lblDropDownCalculation.Text = num.ToString();
+            }
+            else if (ddlist.SelectedItem.Value == "*")
+            {
+                num = num1 * num2;
+                lblDropDownCalculation.Text = num.ToString();
+            }
+            else if (ddlist.SelectedItem.Value == "/")
+            {
+                num = num1 / num2;
+                lblDropDownCalculation.Text = num.ToString();
+            }
+            else
+            {
+                lblDropDownCalculation.Text = "Invalid selection";
+            }
+        }
     }
 }
