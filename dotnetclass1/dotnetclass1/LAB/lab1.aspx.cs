@@ -91,5 +91,32 @@ namespace dotnetclass1.LAB
                 lblDropDownCalculation.Text = "Invalid selection";
             }
         }
+
+        protected void butnCheckboxCalc_Click(object sender, EventArgs e)
+        {
+            string st = "";
+            foreach (ListItem li in cbList.Items)
+            {
+                if (li.Selected == true)
+                {
+                    st = st + li.Value;
+                }
+                lblCheckBoxDisplayList.Text = st;
+
+            }
+        }
+
+        protected void Calendar1_SelectionChanged(object sender, EventArgs e)
+        {
+            TextArea1.InnerText = Calendar1.TodaysDate.ToShortDateString();
+            TextArea2.InnerText = Calendar1.SelectedDate.ToShortDateString();
+
+        }
+
+        protected void btnReset_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("lab1.aspx");
+        }
+
     }
 }
