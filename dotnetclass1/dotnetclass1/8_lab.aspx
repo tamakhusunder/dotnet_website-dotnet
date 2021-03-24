@@ -62,7 +62,7 @@
             <div class="card text-white bg-secondary m-3 col-3" style="max-width: 18rem;">
               <div class="card-header">Lab 3</div>
               <div class="card-body">
-                  <a href="LAB/lab3.aspx">
+                  <a href="img/lab/Calculator.png">
                       <img src="img/lab/3.jpg" class="img-thumbnail"/>
                   </a>
               </div>
@@ -71,7 +71,7 @@
             <div class="card text-white bg-secondary m-3 col-3" style="max-width: 18rem;">
               <div class="card-header">Lab 4</div>
               <div class="card-body">
-                  <a href="LAB/lab4.aspx">
+                  <a href="img/lab/Notepad.png"">
                       <img src="img/lab/4.jpg" class="img-thumbnail"/>
                   </a>
               </div>
@@ -99,7 +99,9 @@
             <div class="card bg-secondary m-3 col-3" style="max-width: 18rem;">
               <div class="card-header">Lab 7</div>
               <div class="card-body">
-                  <a href="LAB/lab7.aspx">LAB/lab7.aspx</a>
+                  <a href="LAB/lab7.aspx">
+                       <img src="img/lab/7.jpg" class="img-thumbnail"/>
+                  </a>
                </div>
             </div>
 

@@ -39,8 +39,8 @@
                       </asp:ContentPlaceHolder>
                       
                     </ul>
-                  
-                      <button class="btn btn-outline-dark my-2 my-sm-0" type="submit">Logout</button>
+                      <asp:Label ID="lblUsername" runat="server" Text=""></asp:Label>
+                      <asp:Button ID="btnLogout" runat="server" Text="Logout" class="btn btn-outline-dark my-2 my-sm-0" OnClick="btnLogout_Click"/>
                     
                   </div>
                 </nav>

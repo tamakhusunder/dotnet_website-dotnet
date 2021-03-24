@@ -729,14 +729,26 @@
                                   </div>
                               </div>
 
-                          </div><br /><br />
+                          </div><br />
+                                        
+                            <h3 class="text-danger text-center bg-light">Upload Image</h3>  
+                       
+                            <div class="row">
+                                <div class=" col-lg-6 col-sm-12">
+                                    <img src="img/5_Winforms/ImageUpload.png" class="img-thumbnail" />
+                                </div>
+
+                                <div class=" col-lg-6 col-sm-12">
+                                    <img src="img/5_Winforms/UploadOutputPic.png" class="img-thumbnail" />
+                                </div>
+                            </div> <br /><br />
 
              
              
-                         <h3 class=" text-danger text-center bg-light">Validation Control</h3>
-                            <div class="embed-responsive embed-responsive-16by9">
-                                <iframe width="560" height="315" class="embed-responsive-item" src="https://www.youtube.com/embed/W7yhGMZ-368" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                            </div>
+                            <h3 class=" text-danger text-center bg-light">Validation Control</h3>
+                                <div class="embed-responsive embed-responsive-16by9">
+                                    <iframe width="560" height="315" class="embed-responsive-item" src="https://www.youtube.com/embed/W7yhGMZ-368" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                </div>
                     </div>
           </div>
        </div>

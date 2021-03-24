@@ -11,7 +11,21 @@ namespace dotnetclass1
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            if (Session["UserName"] != null)
+            {
+                lblUsername.Text = "Hello " + Session["UserName"]+"!!  ";
 
+            }
+            else
+            {
+                Response.Write("<script>alert('Invalid Login');</script>");
+            }
+        }
+
+        protected void btnLogout_Click(object sender, EventArgs e)
+        {
+            Session["UserName"] = null;
+            Response.RedirectPermanent("LoginForm.aspx");
         }
     }
 }

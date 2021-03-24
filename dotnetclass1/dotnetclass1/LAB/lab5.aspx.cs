@@ -13,5 +13,19 @@ namespace dotnetclass1.LAB
         {
 
         }
+        protected void btnSignIn_Click(object sender, EventArgs e)
+        {
+            if (txtusername.Text == "Sunder" && txtpassword.Text == "12345")
+            {
+                Session["UserName"] = txtusername.Text;
+                //Response.Write("<script>alert('Login Successful');</script>");
+                Response.RedirectPermanent("1_overview.aspx");
+            }
+            else
+            {
+                Response.Write("<script>alert('Invalid user');</script>");
+
+            }
+        }
     }
 }

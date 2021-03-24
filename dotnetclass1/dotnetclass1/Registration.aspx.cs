@@ -42,6 +42,6 @@ namespace dotnetclass1
             {
                 Response.Write("<script>alert('Registration Unsuccessful');</script>");
             }
-            }
+        }
     }
 }
